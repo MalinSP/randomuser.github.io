@@ -11,7 +11,7 @@ html {
 } /*16px*/
 
 body {
-  background: #90b4ce;
+  background: #e6e8ee;
   font-family: "Play", sans-serif;
   font-weight: 400;
   line-height: 1.75;
@@ -68,7 +68,7 @@ a {
   min-height: 50vh;
 }
 .bcg-black {
-  background: #2c2e31;
+  background: #00071a;
 }
 .container {
   width: 90vw;
@@ -88,7 +88,7 @@ a {
   left: 0;
   width: 100%;
   height: 130px;
-  background: rgb(184, 184, 184);
+  background: #001858;
   border-top-left-radius: 0.25rem;
   border-top-right-radius: 0.25rem;
   border-bottom: 1px solid rgba(0, 0, 0, 0.25);
@@ -132,6 +132,19 @@ a {
   color: rgb(172, 152, 152);
 }
 .btn {
-  margin: 0 auto;
-  margin-top: 1.5rem;
+  margin-top: 2rem;
+  background-color: #001858;
+  color: #ccd1de;
+  padding: 0.35rem 0.75rem;
+  border: transparent;
+  border-radius: 0.25rem;
+}
+
+@media screen and (max-width: 426px) {
+  .values-list {
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(2, auto);
+    column-gap: 1.5rem;
+    row-gap: 1.5rem;
+  }
 }
